@@ -1,7 +1,7 @@
-#Distorted-Integers
+# Distorted-Integers
 Software to aid in the exploration of certain discrete mathematical structures, so-called "distorted integers".
 
-###Execution
+### Execution
 It should suffice to call the following on a lab machine if tutors’ permissions are equally restrictive:
 • cd
 • /usr/bin/python3 -m venv venv_cs2006
