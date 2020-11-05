@@ -4,25 +4,26 @@ Software to aid in the exploration of certain discrete mathematical structures, 
 ### Execution
 It should suffice to call the following on a lab machine if tutors’ permissions are equally restrictive:
 
-cd
-/usr/bin/python3 -m venv venv_cs2006
+-cd
 
-source ~/venv_cs2006/bin/activate
+-/usr/bin/python3 -m venv venv_cs2006
 
-pip install coverage
+-source ~/venv_cs2006/bin/activate
 
-cd <project_code_directory>
+-pip install coverage
 
-coverage run -m unittest discover
+-cd <project_code_directory>
 
-coverage report
+-coverage run -m unittest discover
 
-coverage html
+-coverage report
+
+-coverage html
 
 The last two points are only necessary to check the coverage – the third last command will run the
 tests. Once finished with the virtual environment, call:
 
-deactivate
+-deactivate
 
 to deactivate it.
 If a virtual environment is not required to install packages, then simply ignore the first three
