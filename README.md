@@ -5,7 +5,6 @@ Software to aid in the exploration of certain discrete mathematical structures, 
 It should suffice to call the following on a lab machine if tutors’ permissions are equally restrictive:
 
 cd
-
 /usr/bin/python3 -m venv venv_cs2006
 
 source ~/venv_cs2006/bin/activate
